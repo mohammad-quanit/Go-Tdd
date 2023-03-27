@@ -3,7 +3,7 @@ package stack_test
 import (
 	"testing"
 
-	stack "github.com/mohammad-quanit/Stack"
+	stack "github.com/mohammad-quanit/go-tdd/Stack"
 )
 
 func TestEmpty(t *testing.T) {
