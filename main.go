@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+func HelloWorld() string {
+	return "Hello World!"
+}
 
-func main() {
-	fmt.Println("Conf 42")
+func Sum(numbers []int) int {
+	sum := 0
+	for _, num := range numbers {
+		sum += num
+	}
+	return sum
+}
+
+func SumAll(numbersTosum ...[]int) []int {
+	return nil
 }
