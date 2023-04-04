@@ -1,5 +1,13 @@
 package main
 
+import (
+	endpoint "github.com/mohammad-quanit/go-tdd/Server"
+)
+
+func main() {
+	endpoint.HttpExample()
+}
+
 func HelloWorld() string {
 	return "Hello World!"
 }
