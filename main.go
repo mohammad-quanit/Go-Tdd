@@ -19,7 +19,3 @@ func Sum(numbers []int) int {
 	}
 	return sum
 }
-
-func SumAll(numbersTosum ...[]int) []int {
-	return nil
-}

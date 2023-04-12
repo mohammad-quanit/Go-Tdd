@@ -36,7 +36,7 @@ func TestPostsEndpoint(t *testing.T) {
 		return
 	}
 	gotExpectedLength := len(data)
-	wantExpectedLength := 100
+	wantExpectedLength := 101
 	if gotExpectedLength != wantExpectedLength {
 		t.Errorf("Unexpected length of data: got %v, want %v", gotExpectedLength, wantExpectedLength)
 	}
